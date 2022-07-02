@@ -4,16 +4,17 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Dizainas</title>
-    <!-- srifto idejimas per link taga -->
+    <title>Dizainas Bootstrap</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <script src="js/bootstrap.min.js"></script>
     <link rel="stylesheet" href="dizainas_style.css">
 </head>
 <body>
-    <!-- Pats virsus -->
-    <header class="top-container">
+    
+    <!-- <header class="top-container">
         <div class="logo">
             <img src="img/logo.png"/>
         </div>
@@ -25,9 +26,54 @@
                <li><a href="#">Contact</a></li>
             </ul>
         </nav>
+    </header> -->
+
+    <header>
+          <nav class="navbar navbar-expand-md">
+            <div class="container-xl">
+              <a class="navbar-brand" href="#">
+                <img src="img/logo.png" width="64px" alt="">
+              </a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse  justify-content-end" id="navbarNav">
+                <ul class="navbar-nav">
+                  <li class="nav-item">
+                    <a class="nav-link fw-semibold text-uppercase" aria-current="page" href="#">Work</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link fw-semibold text-uppercase" href="#">About</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link fw-semibold text-uppercase" href="#">Blog</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link fw-semibold text-uppercase">Contact</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </nav>
     </header>
 
-    <main>
+    <section class="container-xl">
+            <div class="row align-items-center">
+                <div class="col-lg-6">
+                    <h1 class="mb-4 fw-bold w-75">Hello!!!<br>We are a creative Digital Agency.</h1>
+                    <p class="fw-semibold">Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum!</p>
+                    <a class="btn cta text-uppercase px-5 rounded-0 fw-bold" href="#" role="button">Click me!</a>
+                </div>
+                <div class="col-lg-6">
+                    <img class="w-100" src="img/square.jpeg" alt="">
+                </div>
+            </div>
+    </section>
+
+    <section class="container-xl">
+       
+    </section>
+    <!-- <main>
         <section class="banner-container">
             <div class="title-container">
                 <h1>Hello!!!<br />
@@ -195,9 +241,9 @@
             </div>
         </section>
 
-    </main>
+    </main> -->
 
-    <footer>
+    <!-- <footer>
         <div class="footer-container">
             <div class="left-side">
                 <div class="footer-logo">
@@ -218,6 +264,6 @@
                 </a>           
             </div>
         </div>
-    </footer>
+    </footer> -->
 </body>
 </html>
